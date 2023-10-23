@@ -1,0 +1,48 @@
+@media (min-width: 600px) {
+  main {
+    flex-wrap: nowrap;
+  }
+
+  div {
+    flex-basis: 33%;
+  }
+}
+header{
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+    background-color:rgb(42, 146, 164);
+    flex-wrap: wrap;
+    padding: 30px;
+    padding-right: 10px;
+}
+
+a{
+  font-weight: 800;
+  text-decoration: none;
+  color: black;
+  padding-right: 15px;
+  flex-basis: 100%;
+  font-size: 20;
+  }
+h1{
+  margin-bottom: 0px;
+  margin-right: 40px;
+  font-size:35px;
+}
+h2{
+  margin-bottom: 0px;
+}
+.logo{
+  margin-top: 30px;
+  margin-left:50px;
+  margin-right: 120px;
+}
+div.logo img.izquierda {
+  float: left;
+  margin-right: 10px;
+}
+p{
+  font-size:20px;
+}
